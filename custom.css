@@ -1,0 +1,436 @@
+@font-face {
+    src: url(font/BebasNeue-Regular.ttf);
+    font-family: netflix;
+}
+@font-face {
+    font-family: soon;
+    src: url(font/Coming\ Soon\ St.ttf);
+}
+
+body{  
+    background: rgb(30, 30, 30);
+    overflow-x: hidden;
+    max-width: 1920px;
+}
+h5{
+    color: white;
+    font-family: netflix;
+    font-size: 25px;
+    text-align: center;
+}
+a{
+    color: red;
+}
+b{
+    color: #10bd7b;
+    font-weight: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.bigflc{
+    color: #10bd7b;
+}
+.news-button{
+    text-align: center;
+}
+.little-r{
+    font-size: 0.5em;
+    text-decoration: none;
+    color: #DB202C;
+}
+.maj-txt{
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header_banner{
+    height: 60%;
+    width: 100%;
+    min-height: 280px;
+    margin-top: -50px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    box-shadow: inset 0px -130px 80px rgb(30, 30, 30);
+
+    background-image: url(banner/banner4.png);
+    background-size: cover;
+    background-position: right;
+    
+    -webkit-animation-name: banner;
+    -webkit-animation-duration: 30s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction:reverse;
+
+    -moz-animation-name: banner;
+    -moz-animation-duration: 40s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-direction:reverse;
+
+    animation-name: banner;
+    animation-duration: 40s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction:reverse;
+
+}
+
+@-webkit-keyframes banner{
+    0%{background-image: url(banner/banner4.png);}
+    20%{background-image: url(banner/banner4.png);}
+    25%{background-image: url(banner/toh.png);}
+    45%{background-image: url(banner/toh.png);}
+    50%{background-image: url(banner/banner1.png);}
+    70%{background-image: url(banner/banner1.png);}
+    75%{background-image: url(banner/banner3.png);}
+    95%{background-image: url(banner/banner3.png);}
+}
+
+@-moz-keyframes banner{
+    0%{background-image: url(banner/banner4.png);}
+    20%{background-image: url(banner/banner4.png);}
+    25%{background-image: url(banner/toh.png);}
+    45%{background-image: url(banner/toh.png);}
+    50%{background-image: url(banner/banner1.png);}
+    70%{background-image: url(banner/banner1.png);}
+    75%{background-image: url(banner/banner3.png);}
+    95%{background-image: url(banner/banner3.png);}
+}
+
+@keyframes banner{
+    0%{background-image: url(banner/banner4.png);}
+    20%{background-image: url(banner/banner4.png);}
+    25%{background-image: url(banner/toh.png);}
+    45%{background-image: url(banner/toh.png);}
+    50%{background-image: url(banner/banner1.png);}
+    70%{background-image: url(banner/banner1.png);}
+    75%{background-image: url(banner/banner3.png);}
+    95%{background-image: url(banner/banner3.png);}
+}
+
+.titrebox {
+    color: #DB202C;
+    font-family: netflix;
+    font-size: 100px;
+    text-shadow: 10px 10px 20px black;
+    text-transform: uppercase;
+    text-align: center;
+    z-index: 1;
+}
+
+.titrebox2 {
+    background-color: rgba(3, 3, 3, 0.562);
+    backdrop-filter: blur(10px);
+    margin: 0 auto;
+    border-radius: 15px;
+    width: 25%;
+}
+
+.sec1 .omglet{
+    position: relative;
+    margin-top: 520px;
+    margin-bottom: 40px;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 570px;
+    height: 50px;
+}
+
+.sec1 .omglet ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    margin: auto;
+    padding: 0px;
+    position: relative;
+}
+
+.sec1 .omglet ul a {
+    margin: 0 20px;
+}
+
+.sec1 {
+    margin-top: 350px;
+    position: relative;
+}
+
+.sec1 .omglet button {
+    position: relative;
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: #181717;
+    border: 3px solid #DB202C;
+    font-size: 1.7em;
+    font-family: netflix;
+    color: #DB202C;
+    z-index: 2;
+    transition: 0.2s;
+    overflow: hidden;
+    box-shadow: #310000 -5px 5px 20px;
+}
+
+.sec1 .omglet button:hover {
+    color: white;
+    width: 180px;
+    cursor: pointer;
+    font-size: 2em;
+}
+
+.sec1 .omglet button::before {
+    content: "";
+    position: absolute;
+    height: 50px;
+    width: 180px;
+    background-color: #DB202C;
+    top: -2px;
+    left: -2px;
+    transform: translateY(-100%);
+    transition: 0.5s;
+    z-index: -1;
+}
+
+.sec1 .omglet button:hover::before {
+    transform: translate(0%);
+    transition: 0.2s;
+}
+
+.sec1 .omglet button:hover {
+    color: white;
+}
+
+.sec1 .omglet button i {
+    transform: scale(0);
+    margin: -10px;
+    transition: 0.3s;
+}
+
+.sec1 .omglet button:hover i {
+    transform: scale(5);
+    margin-left: 20px;
+}
+/*Boutton d'Abonnement*/
+.sec1 .omglet .donation {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    margin: auto;
+    padding: 0px;
+    position: relative;
+}
+
+.sec1 .omglet .donation, .a {
+    margin: 0 0px;
+}
+
+.sec1 {
+    margin-top: 350px;
+    position: relative;
+}
+
+.sec1 .omglet .donation-btn {
+    position: relative;
+    height: 50px;
+    width: 245px;
+    border-radius: 10px;
+    background-color: #181717;
+    border: 3px solid #db8720;
+    font-size: 1.4em;
+    font-family: netflix;
+    color: #db8720;
+    z-index: 2;
+    transition: 0.2s;
+    overflow: hidden;
+    box-shadow: #312100 -5px 5px 20px;
+}
+
+.sec1 .omglet .donation-btn:hover {
+    color: white;
+    width: 265px;
+    cursor: pointer;
+    font-size: 1.5em;
+}
+
+.sec1 .omglet .donation-btn::before {
+    content: "";
+    position: absolute;
+    height: 50px;
+    width: 265px;
+    background-color: #db8720;
+    top: -2px;
+    left: -2px;
+    transform: translateY(-100%);
+    transition: 0.5s;
+    z-index: -1;
+}
+
+/*Bouton de la Flcorporation*/
+.sec1 .omglet .donation {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    margin: auto;
+    padding: 0px;
+    position: relative;
+}
+
+.sec1 .omglet .donation, .a {
+    margin: 0 0px;
+}
+
+.sec1 {
+    margin-top: 350px;
+    position: relative;
+}
+
+.sec1 .omglet .flc-btn {
+    position: relative;
+    height: 50px;
+    width: 530px;
+    border-radius: 10px;
+    background-color: #181717;
+    border: 3px solid #2320db;
+    font-size: 1.7em;
+    font-family: netflix;
+    color: #2320db;
+    z-index: 2;
+    transition: 0.2s;
+    overflow: hidden;
+    box-shadow: #000231 -5px 5px 20px;
+}
+
+.sec1 .omglet .flc-btn:hover {
+    color: white;
+    width: 610px;
+    right: 40px;
+    cursor: pointer;
+    font-size: 2em;
+}
+
+.sec1 .omglet .flc-btn::before {
+    content: "";
+    position: absolute;
+    height: 50px;
+    width: 610px;
+    background-color: #2320db;
+    top: -2px;
+    left: -2px;
+    transform: translateY(-100%);
+    transition: 0.5s;
+    z-index: -1;
+}
+
+
+.sec1 .omglet .flc-btn:hover::before {
+    transform: translate(0%);
+    transition: 0.2s;
+}
+
+.sec1 .omglet .flc-btn:hover {
+    color: white;
+}
+
+.sec1 .omglet .flc-btn i {
+    transform: scale(0);
+    margin: -10px;
+    transition: 0.3s;
+}
+
+.sec1 .omglet .flc-btn:hover i {
+    transform: scale(5);
+    margin-left: 50px;
+}
+
+
+
+.sec1 .liste1 { 
+    background-color: rgba(66, 65, 65, 0.562);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    margin: 20px;
+    position: relative;
+}
+
+.sec1 .liste1 .categorie1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+    position: relative;
+    width: 400px;
+    text-align: left;
+    padding: 10px 0px 0px 10px;
+}
+
+@media screen and (max-width : 1920px){
+    .sec1 .liste1 img {
+        height: 12%;
+        width: 12%;
+        border-radius: 5px;
+        box-shadow: #000000 -5px 5px 20px;
+        margin: 20px;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width : 1100px){
+    .sec1 .liste1 img {
+        height: 20%;
+        width: 20%;
+        border-radius: 5px;
+        box-shadow: #000000 -5px 5px 20px;
+        margin: 20px;
+    }
+}
+
+.sec1 .liste2 { 
+    background-color: rgba(66, 65, 65, 0.562);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    margin: 20px;
+    position: relative;
+}
+
+.sec1 .liste2 .categorie2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+    position: relative;
+    width: 400px;
+    text-align: left;
+    padding: 10px 0px 0px 10px;
+}
+
+@media screen and (max-width : 1920px){
+    .sec1 .liste2 img {
+        height: 12%;
+        width: 12%;
+        border-radius: 5px;
+        box-shadow: #000000 -5px 5px 20px;
+        margin: 20px;
+    }
+}
+
+@media screen and (max-width : 1100px){
+    .sec1 .liste2 img {
+        height: 20%;
+        width: 20%;
+        border-radius: 5px;
+        box-shadow: #000000 -5px 5px 20px;
+        margin: 20px;
+    }
+}
+
+::-webkit-scrollbar {
+    background-color: rgba(0, 132, 255, 0);
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #DB202C;
+    border-radius: 50px;
+    
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
