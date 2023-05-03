@@ -1,0 +1,24 @@
+@font-face {
+    font-family: netflix;
+    src: url(font/BebasNeue-Regular.ttf);
+}
+*{
+    text-decoration: none;
+}
+body{
+    background-color: #1e1e1e;
+    text-align: center;
+}
+.title{
+    color: white;
+    font-family: netflix;
+    font-size: 80px;
+}
+h1{
+    color: white;
+    font-family: netflix;
+}
+p{
+    color: white;
+    font-family: netflix;
+}

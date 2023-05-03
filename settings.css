@@ -1,0 +1,67 @@
+@font-face {
+    src: url(font/Coming\ Soon\ St.ttf);
+    font-family: soon;
+}
+@font-face {
+    font-family: netflix;
+    src: url(font/BebasNeue-Regular.ttf);
+}
+*{
+    text-decoration: none;
+}
+body{
+    background-color: #1e1e1e;
+}
+header{
+    text-align: center;
+}
+h1{
+    color: white;
+    font-family: netflix;
+}
+.big-title{
+    color: #DB202C;
+    font-size: 50px;
+    font-family: netflix;
+}
+.little-title{
+    color: #DB202C;
+    font-size: 25px;
+    font-family: netflix;
+}
+
+
+
+@media screen and (max-width : 1920px){
+    .sec1 .liste2 img {
+        height: 12%;
+        width: 12%;
+        border-radius: 5px;
+        box-shadow: #000000 -5px 5px 20px;
+        margin: 20px;
+    }
+}
+
+@media screen and (max-width : 1100px){
+    .sec1 .liste2 img {
+        height: 20%;
+        width: 20%;
+        border-radius: 5px;
+        box-shadow: #000000 -5px 5px 20px;
+        margin: 20px;
+    }
+}
+
+::-webkit-scrollbar {
+    background-color: rgba(0, 132, 255, 0);
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #DB202C;
+    border-radius: 50px;
+    
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }

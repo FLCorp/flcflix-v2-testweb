@@ -1,0 +1,13 @@
+@font-face {
+    font-family: netflix;
+    src: url(font/BebasNeue-Regular.ttf);
+}
+*{
+    text-decoration: none;
+}
+body{
+    background-color: #1e1e1e;
+}
+button{
+    display: block;
+}
