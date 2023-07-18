@@ -1,0 +1,256 @@
+@font-face {
+    src: url(font/BebasNeue-Regular.ttf);
+    font-family: netflix;
+}
+@font-face {
+    font-family: soon;
+    src: url(font/Coming\ Soon\ St.ttf);
+}
+*{
+    text-decoration: none;
+}
+body {
+    margin: 0 auto;
+    background: rgb(30, 30, 30);
+    padding: 0 20px 20px 20px;
+    border: 5px solid rgb(30, 30, 30);
+    max-width: 1920px;
+}
+button{
+    color: red;
+    font-family: Bebas Neue;
+    padding: 5px 10px;
+    margin: 0 auto;
+}
+.img-film{
+    box-shadow: #000000 -5px 5px 20px;
+    margin: 20px;
+    border-radius: 15px;
+}
+h1{
+    color: red;
+    font-family: Bebas Neue;
+    text-align: center;
+    font-size: 50px;
+}
+a{
+    color: red;
+    font-family: Bebas Neue;
+}
+.nav, ul{
+    background-color: #000000;
+    border-radius: 50px;
+    width: 30%;
+    text-align: center;
+    list-style-type: none;
+    align-items: center;
+    margin: auto;
+    padding: 0px;
+    position: relative;
+}
+.nav-txt{
+    font-family: netflix;
+    font-size: 35px;
+    color: white;
+}
+.films{
+    display: block;
+    background-color: black;
+    border-radius: 10px;
+}
+.message-bar-usps{
+    min-height: 2.8em;
+}
+.message-bar-usps{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+.message-bar--accent{
+    color: #ffff;
+}
+.message-bar{
+    max-width: 100vw;
+    text-align: center;
+}
+.news{
+    display: block;
+    background: rgb(251, 98, 34);
+    color: black;
+    border-radius: 10px;
+}
+::-webkit-scrollbar {
+    background-color: rgba(0, 132, 255, 0);
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #DB202C;
+    border-radius: 50px;
+    
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+.sec1 .omglet .films{
+    position: relative;
+    margin-top: 520px;
+    margin-bottom: 40px;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 570px;
+    height: 50px;
+}
+
+.sec1 .omglet ul  .films{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    margin: auto;
+    padding: 0px;
+    position: relative;
+}
+
+.sec1 .omglet ul a  .films{
+    margin: 0 30px;
+}
+
+.sec1 {
+    margin-top: 500px;
+    position: relative;
+}
+
+.sec1 .omglet button .films{
+    position: relative;
+    height: 50px;
+    width: 130px;
+    border-radius: 10px;
+    background-color: rgb(24, 23, 23);
+    border: 3px solid #DB202C;
+    font-size: 1.7em;
+    font-family: Bebas Neue;
+    color: #DB202C;
+    z-index: 2;
+    transition: 0.2s;
+    overflow: hidden;
+}
+
+.sec1 .omglet button:hover .films {
+    color: white;
+    width: 160px;
+    cursor: pointer;
+    font-size: 2em;
+}
+
+.sec1 .omglet button::before .films {
+    content: "";
+    position: absolute;
+    height: 50px;
+    width: 160px;
+    background-color: #DB202C;
+    top: -2px;
+    left: -2px;
+    transform: translateY(-100%);
+    transition: 0.5s;
+    z-index: -1;
+}
+
+.sec1 .omglet button:hover::before .films {
+    transform: translate(0%);
+    transition: 0.2s;
+}
+
+.sec1 .omglet button:hover .films {
+    color: white;
+}
+
+.sec1 .omglet button i .films {
+    transform: scale(0);
+    margin: -10px;
+    transition: 0.3s;
+}
+
+.sec1 .omglet button:hover i .films {
+    transform: scale(5);
+    margin-left: 20px;
+}
+
+
+.sec1 .liste1 .films { 
+    background-color: rgba(66, 65, 65, 0.562);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    margin: 20px;
+    position: relative;
+}
+
+.sec1 .liste1 .categorie1  .films{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+    position: relative;
+    width: 400px;
+    text-align: left;
+    padding: 10px 0px 0px 10px;
+}
+
+@media screen and (max-width : 1920px){
+    .sec1 .liste1 img  .films{
+        height: 12%;
+        width: 12%;
+        border-radius: 5px;
+        box-shadow: #000000 -5px 5px 20px;
+        margin: 20px;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width : 1100px){
+    .sec1 .liste1 img  .films{
+        height: 20%;
+        width: 20%;
+        border-radius: 5px;
+        box-shadow: #000000 -5px 5px 20px;
+        margin: 20px;
+    }
+}
+.films-images{
+    background-color: rgba(106, 106, 106, 0.427);
+    background-image: url(img/background_6.png);
+    background-size: 150%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat-x;
+    border-radius: 20px;
+    margin: 20px;
+    position: relative;
+}
+p{
+    padding: 10px 0px 0px 10px;
+    color: white;
+    font-family: Bebas Neue;
+}
+
+@media screen and (max-width : 1920px){
+    .films-images .img-film img {
+        height: 12%;
+        width: 12%;
+        border-radius: 5px;
+        box-shadow: #000000 -5px 5px 20px;
+        margin: 20px;
+    }
+}
+
+@media screen and (max-width : 1100px){
+    .films-images .img-film img{
+        height: 20%;
+        width: 20%;
+        border-radius: 5px;
+        box-shadow: #000000 -5px 5px 20px;
+        margin: 20px;
+    }
+}

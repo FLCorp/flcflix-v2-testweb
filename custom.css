@@ -8,7 +8,7 @@
 }
 
 body{  
-    background: rgb(30, 30, 30);
+    background: linear-gradient(to bottom, #1e1e1e, #1e1e1e, #000231);
     overflow-x: hidden;
     max-width: 1920px;
 }
@@ -19,7 +19,7 @@ h5{
     text-align: center;
 }
 a{
-    color: green;
+    color: #004779;
 }
 b{
     color: #10bd7b;
@@ -31,8 +31,12 @@ b{
     font-family: netflix;
 }
 .v3-txt{
-    color: #106c00;
+    color: #0b006c;
     font-size: 0.75em;
+}
+.v3txt{
+    color: #070041;
+    font-size: 0.5em;
 }
 .bigflc{
     color: #10bd7b;
@@ -58,7 +62,7 @@ b{
     top: 0;
     left: 0;
     position: absolute;
-    box-shadow: inset 0px -130px 80px rgb(30, 30, 30);
+    box-shadow: inset 0px -130px 80px #1e1e1e;
 
     background-image: url(banner/banner4.png);
     background-size: cover;
@@ -518,4 +522,8 @@ b{
 }
 ::-webkit-scrollbar {
     width: 10px;
-  }
+}
+.top{
+    font-family: netflix;
+    color: #004779;
+}

@@ -1,0 +1,188 @@
+@font-face {
+    font-family: netflix;
+    src: url(font/BebasNeue-Regular.ttf);
+}
+
+/*Titre*/
+.titrebox {
+    color: #ab7715;
+    font-family: netflix;
+    font-size: 100px;
+    text-shadow: 10px 10px 20px black;
+    text-transform: uppercase;
+    text-align: center;
+    z-index: 1;
+}
+
+.titrebox2 {
+    background-color: rgba(3, 3, 3, 0.562);
+    backdrop-filter: blur(10px);
+    margin: 0 auto;
+    border-radius: 15px;
+    width: 50%;
+}
+
+/*Bouttons Episodes*/
+.sec1 .omglet{
+    position: absolute;
+    justify-content: space-between;
+    width: 570px;
+    height: 50px;
+}
+
+.sec1 .omglet ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    position: relative;
+}
+
+.sec1 .omglet ul a {
+    margin: 0 5px;
+}
+
+.sec1 {
+    position: relative;
+}
+
+.sec1 .omglet button {
+    position: relative;
+    height: 50px;
+    width: 120px;
+    border-radius: 5px;
+    background-color: #181817;
+    border: 3px solid #ab7715;
+    font-size: 1.7em;
+    font-family: netflix;
+    color: #ab7715;
+    z-index: 2;
+    transition: 0.2s;
+    overflow: hidden;
+    box-shadow: #000000 -5px 5px 20px;
+}
+
+.sec1 .omglet button:hover {
+    color: white;
+    width: 180px;
+    cursor: pointer;
+    font-size: 2em;
+}
+
+.sec1 .omglet button::before {
+    content: "";
+    position: absolute;
+    height: 50px;
+    width: 180px;
+    background-color: #ab7715;
+    top: -2px;
+    left: -2px;
+    transform: translateY(-100%);
+    transition: 0.5s;
+    z-index: -1;
+}
+
+.sec1 .omglet button:hover::before {
+    transform: translate(0%);
+    transition: 0.2s;
+}
+
+.sec1 .omglet button:hover {
+    color: black;
+}
+
+.sec1 .omglet button i {
+    transform: scale(0);
+    margin: -10px;
+    transition: 0.3s;
+}
+
+.sec1 .omglet button:hover i {
+    transform: scale(5);
+    margin-left: 20px;
+}
+
+.sec1 .liste1 { 
+    background-color: rgba(66, 65, 65, 0.562);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    margin: 20px;
+    position: relative;
+}
+
+.sec1 .liste1 .categorie1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+    position: relative;
+    width: 400px;
+    text-align: left;
+    padding: 10px 0px 0px 10px;
+}
+
+/*Bouton Retour*/
+.popup .popup-footer, .btn-see {
+    position: relative;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: rgb(24, 24, 23);
+    border: 3px solid rgb(24, 24, 23);
+    font-size: 0.3em;
+    font-family: netflix;
+    color: #ab7715;
+    z-index: 2;
+    transition: 0.2s;
+    overflow: hidden;
+}
+
+.popup .popup-footer, .btn-see:hover {
+    color: white;
+    background-color: #ab7715;
+    width: 120px;
+    height: 46px;
+    cursor: pointer;
+    font-size: 0.35em;
+    border: 2px solid #794a09;
+}
+
+.popup .popup-footer, .btn-see::before {
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 46px;
+}
+
+.popup .popup-footer, .btn-see:hover::before {
+    transform: translate(0%);
+    transition: 0.2s;
+}
+
+.popup .popup-footer, .btn-see:hover {
+    color: black;
+}
+
+.popup .popup-footer, .btn-see i {
+    transform: scale(0);
+    margin: -10px;
+    transition: 0.3s;
+}
+
+.popup .popup-footer, .btn-see:hover i {
+    transform: scale(5);
+}
+
+/*Scrollbar*/
+
+::-webkit-scrollbar {
+    background-color: rgba(0, 132, 255, 0);
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #ab7715;
+    border-radius: 50px;
+    
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
