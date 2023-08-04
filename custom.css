@@ -12,6 +12,10 @@ body{
     overflow-x: hidden;
     max-width: 1920px;
 }
+img{
+    width: auto;
+    height: auto;
+}
 h5{
     color: white;
     font-family: netflix;
