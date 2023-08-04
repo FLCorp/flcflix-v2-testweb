@@ -10,6 +10,7 @@
 body{  
     background-image: url(img/flc-flix_v3_announce.png);
     background-repeat: no-repeat;
+    background-size: cover;
     overflow-x: hidden;
     max-width: 1920px;
 }
