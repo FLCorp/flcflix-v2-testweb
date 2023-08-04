@@ -8,7 +8,8 @@
 }
 
 body{  
-    background: linear-gradient(to bottom, #1e1e1e, #1e1e1e, #000231);
+    background-image: url(img/flc-flix_v3_announce.png);
+    background-size: 50%;
     overflow-x: hidden;
     max-width: 1920px;
 }
