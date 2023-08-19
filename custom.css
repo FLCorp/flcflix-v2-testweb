@@ -8,11 +8,9 @@
 }
 
 body{  
-    background-image: url(img/flc-flix_v3_announce.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url(img/FLC-Flix_V3.gif);
     overflow-x: hidden;
-    max-width: 1920px;
+    background-size: 1250px;
 }
 img{
     width: auto;
